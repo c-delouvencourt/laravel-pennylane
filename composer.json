@@ -1,6 +1,7 @@
 {
     "name": "c-delouvencourt/laravel-pennylane",
     "description": "Pennylane API wrapper for Laravel 11",
+    "version": "1.0.0",
     "keywords": [
         "Laravel",
         "Pennylane",

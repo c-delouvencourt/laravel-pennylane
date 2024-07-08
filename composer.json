@@ -1,16 +1,21 @@
 {
-    "name": "ashraam/pennylane-laravel",
-    "description": "Pennylane API wrapper for Laravel",
+    "name": "c-delouvencourt/pennylane-laravel",
+    "description": "Pennylane API wrapper for Laravel 11",
     "keywords": [
         "Laravel",
         "Pennylane",
         "Invoices",
         "Customers"
     ],
-    "homepage": "https://github.com/ashraam/pennylane-laravel",
+    "homepage": "https://github.com/c-delouvencourt/laravel-pennylane",
     "license": "MIT",
     "type": "library",
     "authors": [
+        {
+            "name": "Clément de Louvencourt",
+            "email": "clement@meilleursbiens.com",
+            "role": "Developer"
+        },
         {
             "name": "Romain Bertolucci",
             "email": "romain.bertolucci@gmail.com",
@@ -19,8 +24,8 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "guzzlehttp/guzzle": "^7.3",
-        "illuminate/support": "^8.0"
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
     },
     "require-dev": {
         "blastcloud/guzzler": "^2.0",
@@ -29,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ashraam\\PennylaneLaravel\\": "src"
+            "CLDT\\PennylaneLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ashraam\\PennylaneLaravel\\Tests\\": "tests"
+            "CLDT\\PennylaneLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ashraam\\PennylaneLaravel\\PennylaneLaravelServiceProvider"
+                "CLDT\\PennylaneLaravel\\PennylaneLaravelServiceProvider"
             ],
             "aliases": {
-                "PennylaneLaravel": "Ashraam\\PennylaneLaravel\\PennylaneLaravelFacade"
+                "PennylaneLaravel": "CLDT\\PennylaneLaravel\\PennylaneLaravelFacade"
             }
         }
     }

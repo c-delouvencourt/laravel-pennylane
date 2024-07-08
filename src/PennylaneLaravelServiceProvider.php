@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraam\PennylaneLaravel;
+namespace CLDT\PennylaneLaravel;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;

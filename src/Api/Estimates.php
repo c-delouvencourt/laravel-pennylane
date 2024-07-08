@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraam\PennylaneLaravel\Api;
+namespace CLDT\PennylaneLaravel\Api;
 
 class Estimates extends BaseApi
 {

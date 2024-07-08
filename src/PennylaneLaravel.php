@@ -2,6 +2,7 @@
 
 namespace CLDT\PennylaneLaravel;
 
+use CLDT\PennylaneLaravel\Api\SupplierInvoices;
 use GuzzleHttp\ClientInterface;
 use CLDT\PennylaneLaravel\Api\Enums;
 use CLDT\PennylaneLaravel\Api\Invoices;
@@ -38,6 +39,11 @@ class PennylaneLaravel
     public function invoices()
     {
         return new Invoices($this->client);
+    }
+
+    public function supplierInvoices()
+    {
+        return new SupplierInvoices($this->client);
     }
 
     public function estimates()

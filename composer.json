@@ -1,7 +1,7 @@
 {
     "name": "c-delouvencourt/laravel-pennylane",
     "description": "Pennylane API wrapper for Laravel 11",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "keywords": [
         "Laravel",
         "Pennylane",
@@ -26,7 +26,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.8",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "blastcloud/guzzler": "^2.0",
